@@ -1,58 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2022-12-01T14:53:38.627Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="06P7HRqZAaXJUEOdRucd" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-05T01:04:09.494Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="AP0PQXGCQc7M4InH6bw7" version="20.6.0" type="github">
   <diagram id="WrlV3yT-YBFCHB49ksLP" name="第 1 页">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JjVoeqyf47N1_hWljFrh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JjVoeqyf47N1_hWljFrh-2" target="JjVoeqyf47N1_hWljFrh-3">
+        <mxCell id="JjVoeqyf47N1_hWljFrh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JjVoeqyf47N1_hWljFrh-2" target="JjVoeqyf47N1_hWljFrh-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JjVoeqyf47N1_hWljFrh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JjVoeqyf47N1_hWljFrh-2" target="JjVoeqyf47N1_hWljFrh-4">
+        <mxCell id="JjVoeqyf47N1_hWljFrh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JjVoeqyf47N1_hWljFrh-2" target="JjVoeqyf47N1_hWljFrh-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JjVoeqyf47N1_hWljFrh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JjVoeqyf47N1_hWljFrh-2" target="JjVoeqyf47N1_hWljFrh-7">
+        <mxCell id="JjVoeqyf47N1_hWljFrh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="JjVoeqyf47N1_hWljFrh-2" target="JjVoeqyf47N1_hWljFrh-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JjVoeqyf47N1_hWljFrh-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;登录: 核心就是通过session, nginx的路由策略是ip hash?&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;my: /v2/do-login&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;my: /v2/login&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;my: /v2/login-with-service-contract&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JjVoeqyf47N1_hWljFrh-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;登录: 核心就是通过session, nginx的路由策略是ip hash?&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;my: /v2/do-login&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;my: /v2/login&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;my: /v2/login-with-service-contract&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-80" y="200" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JjVoeqyf47N1_hWljFrh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JjVoeqyf47N1_hWljFrh-3" target="JjVoeqyf47N1_hWljFrh-9">
+        <mxCell id="JjVoeqyf47N1_hWljFrh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="JjVoeqyf47N1_hWljFrh-3" target="JjVoeqyf47N1_hWljFrh-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JjVoeqyf47N1_hWljFrh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JjVoeqyf47N1_hWljFrh-3" target="JjVoeqyf47N1_hWljFrh-10">
+        <mxCell id="JjVoeqyf47N1_hWljFrh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="JjVoeqyf47N1_hWljFrh-3" target="JjVoeqyf47N1_hWljFrh-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JjVoeqyf47N1_hWljFrh-3" value="云点播&lt;br&gt;my.polyv.net" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JjVoeqyf47N1_hWljFrh-3" value="云点播&lt;br&gt;my.polyv.net" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JjVoeqyf47N1_hWljFrh-4" value="云直播&lt;br&gt;live.polyv.net" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JjVoeqyf47N1_hWljFrh-4" value="云直播&lt;br&gt;live.polyv.net" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-150" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JjVoeqyf47N1_hWljFrh-7" value="互动课堂" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JjVoeqyf47N1_hWljFrh-7" value="互动课堂" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JjVoeqyf47N1_hWljFrh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JjVoeqyf47N1_hWljFrh-9" target="JjVoeqyf47N1_hWljFrh-13">
+        <mxCell id="JjVoeqyf47N1_hWljFrh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JjVoeqyf47N1_hWljFrh-9" target="JjVoeqyf47N1_hWljFrh-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JjVoeqyf47N1_hWljFrh-9" value="vod-my: 管理后台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JjVoeqyf47N1_hWljFrh-9" value="vod-my: 管理后台" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-70" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JjVoeqyf47N1_hWljFrh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JjVoeqyf47N1_hWljFrh-10" target="JjVoeqyf47N1_hWljFrh-13">
+        <mxCell id="JjVoeqyf47N1_hWljFrh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JjVoeqyf47N1_hWljFrh-10" target="JjVoeqyf47N1_hWljFrh-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JjVoeqyf47N1_hWljFrh-10" value="vod-api: 对外暴露出去的接口, 有sdk做了一层封装" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JjVoeqyf47N1_hWljFrh-10" value="vod-api: 对外暴露出去的接口, 有sdk做了一层封装" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JjVoeqyf47N1_hWljFrh-13" value="vod-core" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JjVoeqyf47N1_hWljFrh-13" value="vod-core" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JjVoeqyf47N1_hWljFrh-16" value="点播后台首页:" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JjVoeqyf47N1_hWljFrh-16" value="点播后台首页:" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-680" y="960" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JjVoeqyf47N1_hWljFrh-17" value="流量:&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JjVoeqyf47N1_hWljFrh-17" value="流量:&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-500" y="900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JjVoeqyf47N1_hWljFrh-18" value="空间:&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JjVoeqyf47N1_hWljFrh-18" value="空间:&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-490" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
